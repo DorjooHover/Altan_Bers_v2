@@ -1,0 +1,17 @@
+#add_orgonFormat {
+    position: absolute;
+    background: black;
+    width: 99vw;
+    height: 100vh;
+    display: none;
+    top: 100vh;
+    z-index: 1000 !important;
+    overflow: hidden;
+    transform: translateY(-100vh);
+    text-align: center;
+}
+
+#add_orgonFormat img {
+    height: auto;
+    width: 80% !important;
+}

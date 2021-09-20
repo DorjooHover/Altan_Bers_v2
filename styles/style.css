@@ -1,0 +1,71 @@
+:root {
+    --main-color:#ffd600;
+    --secondary-color:#191919;
+    --third-color:#292929;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+.stratch-thin-medium {
+    position: relative;
+    width:inherit;
+    margin-right: 3vw;
+    align-items: center;
+    border-bottom: 0.2rem var(--third-color) solid;
+    transform: translateY(-49%);
+}
+.stratch-thin-small {
+    position: relative;
+    width:7rem;
+    margin-left: 3rem;
+    align-items: center;
+    border-bottom: 0.1rem var(--third-color) solid;
+}
+.startch-small {
+    position: relative;
+    width:5rem;
+    align-items: center;
+    border-bottom: 0.5rem var(--main-color) solid;
+}
+.class-bot {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+}
+.class-bot-fat{
+    position: relative;
+    width:5vw;
+    right: -30vw;
+    align-items: center;
+    border-bottom: 0.4rem var(--main-color) solid;
+    z-index: 2;
+}
+
+.class-bot-thin{
+    position: absolute;
+    width:30vw;
+    right: 30vw;
+    margin-right: 5vw;
+    border-bottom: 0.1rem var(--third-color) solid;
+    
+}
+.class-bot-thin_employee{
+    position: absolute;
+    width:30vw;
+    right: 0;
+    margin-right: 5vw;
+    border-bottom: 0.1rem var(--third-color) solid;
+    
+}
+

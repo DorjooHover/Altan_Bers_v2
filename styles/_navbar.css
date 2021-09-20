@@ -1,0 +1,42 @@
+#nav {
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: var(--secondary-color);
+    z-index: 4;
+}
+#nav a img {
+    width: 5rem;
+    position: relative;
+    padding: 0.25rem 3rem;
+
+}
+#nav > a{
+    background: var(--secondary-color);
+
+}
+#nav .nav-btn {
+
+}
+#nav .nav-btn ul {
+    display: flex;
+    padding:0 2rem;
+    
+}
+#nav .nav-btn ul a {
+    color: #eee;
+    font-weight: bold;
+    }
+#nav .nav-btn ul li {
+    padding: 1rem 2rem;
+    transform: translateY(43%);
+    background: var(--third-color);
+}
+#nav .nav-btn ul li.active {
+    background: var(--main-color);
+    color:#eee;
+    font-weight: bold;
+}

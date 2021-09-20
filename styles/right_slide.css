@@ -1,0 +1,17 @@
+   
+    .swiper_right_slide .swiper-wrapper{
+        height: 90vh;
+}
+.swiper_right_slide {
+     width: 30vw;
+     position: static;
+    z-index: 1;
+    right: 0;
+    overflow: hidden;
+}
+.swiper_right_slide img {
+    padding-left: 25%;
+    width: 50%;
+    height: inherit;
+    box-sizing: 0 5px 10px 0 var(--third-color);
+}

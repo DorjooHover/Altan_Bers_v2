@@ -1,0 +1,84 @@
+#about-area_1 {
+    padding-top:8rem;
+}
+
+.about_class {
+    margin-left: 8vw;
+    margin-bottom: 5rem;
+}
+.about_class .about_class-area  {
+    display: flex;
+    align-items: center;
+}
+.about_class .about_class-area h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.about_class p {
+    font-family:  Georgia, "Times New Roman", Times, serif;
+    padding-bottom: 4rem;
+}
+.bg-font {
+    position: absolute;
+    font-size: 7rem;
+
+    z-index: -1;
+    right: 32vw;
+    opacity: 0.1;
+    font-weight: bold;
+}
+.class img {
+    max-width: 65%;
+    box-shadow: 0 15px 15px 0 #333 ;
+    z-index: -2;
+}
+.class{
+    display: flex;
+    align-items: center;
+    margin-left: 8vw;
+}
+
+
+.class p {
+    position: absolute;
+    width: 30%;
+    right: 30vw;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem ;
+    font-size: 1.5rem;
+    text-align: right;
+    font-family: 'Lobster', cursive;
+}
+.swiper_employee {
+    padding: 5rem 0;
+    padding-right: 5rem;
+    margin:5rem 0;
+    overflow: hidden;
+    background: rgba(255, 214, 0, 0.1);
+}
+.swiper_employee .swiper-slide {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+}
+
+.swiper_employee .swiper-slide img{
+height: 100%;
+}
+.swiper_employee .swiper-slide strong {
+    font-weight: bold;
+}
+.about-area_2 {
+    margin-left: 8vw;
+    padding-right: 3rem;
+}
+.about-area_2 h1 {
+    font-size: 1.5rem;
+    padding: 1rem 0 ;
+}
+.about-area_2 p {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}

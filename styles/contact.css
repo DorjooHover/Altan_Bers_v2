@@ -1,0 +1,27 @@
+#contact {
+    display: flex;
+    padding: 5rem 0;
+    margin:5rem 0 ;
+}
+#contact img {
+    height: 100%;
+    width: 40vw;
+}
+.contact_text {
+    margin: 2rem;
+    margin-left: 8vw;
+    padding-top: 3rem;
+}
+.contact_text h4 {
+    font-size: 2rem;
+}
+.contact_text strong {
+    font-weight: bold;
+}
+.contact_text p {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+.contact_text a {
+    color: #000;
+}

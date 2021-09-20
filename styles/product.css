@@ -1,0 +1,52 @@
+#product {
+
+    padding: 10rem 0;
+    overflow: hidden;
+    width: 70vw;
+}
+.swiper_product{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5rem 0;
+}
+#product .swiper-slide {
+    display: flex;
+    align-items: center;
+
+}
+#product .swiper-slide img{
+    height: 100%;
+    width: 20vw;
+    margin-left: 8vw;
+}
+
+.product_text {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin:0 5rem ;
+}
+.product_text h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.product_text p {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+.product_text li {
+    list-style-type:circle ;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    padding-top:0.5rem;
+}
+.btn{
+    padding: 1rem 3rem ;
+    color: white;
+    background: var(--main-color);
+    display: block;
+    right: 2vw;
+    bottom: 0;
+    border-radius: 5%;
+    position: absolute;
+    font-weight: bold;
+}

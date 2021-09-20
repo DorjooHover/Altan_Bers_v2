@@ -1,0 +1,10 @@
+
+.body {
+    width:70vw;
+}
+.swiper_right_slide {
+    width:30vw;
+}
+#body {
+    display: flex;
+}
